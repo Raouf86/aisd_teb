@@ -7,12 +7,19 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import static myPackage.exam.colections.Task2.*;
 import static myPackage.exam.recursion.Task1.printNumberPyramid;
 
 public class Application {
     public static void main(String[] args) {
-        printNumberPyramid(10);
 
+        //printNumberPyramid(8);
+
+        //printCarListAfterSomeModification();
+
+        //printCarsToValueAndLevelOfEquipment(70555.0, 1);
+
+        printSortedCars();
 
     }//koniec metody głównej "main", to co poza nią nie zostanie wykonane chyba, że zostanie wywołane z wnętrza metody "main"
 
